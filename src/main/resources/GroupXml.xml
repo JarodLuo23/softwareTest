@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+    <groups>
+        <run>
+            <include name="sanity"/>
+        </run>
+    </groups>
+    <test name="test1">
+        <classes>
+            <class name="com.example.Parallel.NewTest"/>
+        </classes>
+    </test>
+    <test name="test2">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.example.Parallel.NewTest2"/>
+        </classes>
+    </test>
+</suite>

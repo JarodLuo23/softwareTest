@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<suite name="DemoSuite">
+    <test name="OrangeHRMLogin">
+        <classes>
+            <class name="com.example.Parallel.OrangeHRM">
+                <methods>
+                    <include name="LaunchApp"/>
+                    <include name="EnterLoginDetails"/>
+                    <include name="VerifyLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="OrangeHRMMyInfo">
+        <classes>
+            <class name="com.example.Parallel.OrangeHRM">
+                <methods>
+                    <include name="LaunchApp"/>
+                    <include name="EnterLoginDetails"/>
+                    <include name="NaviagateToMyInfo"/>
+                    <include name="VerifyMyInfo"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="TestGoogle">
+        <classes>
+            <class name="com.example.Parallel.FirstTest"/>
+        </classes>
+    </test>
+</suite>
